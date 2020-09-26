@@ -34,23 +34,46 @@ _*: Recorda seleccionar Console App (.NET Core) y C# como lenguaje._
 
 ```
 static void Main(string[] args)
-    {
-        // Inicia nuestra aplicación 
-        Console.WriteLine("Aplicación Concesionaria");
+{
+    // Inicia nuestra aplicación 
+    Console.WriteLine("Aplicación Concesionaria");
 
-        // Finaliza nuestra aplicación
-    }
+    // Finaliza nuestra aplicación
+}
 ```
 
-2. *ProgramaConcesionario* - _Auto.cs_: Constará de los atributos propios de un Auto, necesarios para que el usuario final interactúe con la aplicación.
+_Además de este método principal, podemos escribir métodos (funciones o procedimientos) privados que nos resuelvan y encapsulen los distintos algoritmos._
+
+```
+private static void ImprimirAutos(List<Auto> autos)
+{
+    // Este procedimiento recorre una lista de autos, imprimiendolos por consola.
+
+    foreach (var auto in autos)
+    {
+        Console.WriteLine(auto.Modelo);
+    }
+}
+```
+
+2. **ProgramaConcesionario** - _Auto.cs_: Constará de los atributos propios de un Auto, necesarios para que el usuario final interactúe con la aplicación.
 
 ```
 public class Auto
-    {
-        public int Modelo { get; private set; }
-        public string Nombre { get; private set; }
-        public string Marca { get; private set; }
-        public int Precio { get; set; }
-        public int Ganancia { get; set; }
-    }
+{
+    public int Modelo { get; private set; }
+    public string Nombre { get; private set; }
+    public string Marca { get; private set; }
+    public int Precio { get; set; }
+    public int Ganancia { get; set; }
+}
 ```
+
+### Dando **interacción** a la **Interfaz** 🤵🏻
+
+A la hora de escribir nuestra interacción en la interfaz, tendremos en cuenta los siguientes tips:
+
+- Si esperamos que el usuario ingrese una acción (como por ejemplo el número de comando que desea ejecutar) deberemos validar si el valor ingresado es correcto, y sino, pedir que lo vuelva a ingresar.
+
+
+### **JSON**: Guardando y leyendo ✏
