@@ -13,7 +13,7 @@ _Como requisitos mínimos para poder trabajar vamos a necesitar:_
 * [.NET Core 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1) - Necesario para compilar nuestra aplicación.
 * [git for windows](https://gitforwindows.org/) - Necesario para conectarse a Github.
 
-### Crear Solución 📋
+### Crear solución 📋
 
 1. Necesitaremos crear una **Solución** para nuestra aplicación, la estructura de la misma debe contener al menos un **proyecto de consola**, ya que utilizaremos a la consola como interfaz de usuario.
 
@@ -27,6 +27,30 @@ _*: Recorda seleccionar Console App (.NET Core) y C# como lenguaje._
 
 ![Solution](img/solution.png)
 
-### Escribiendo Clases ✏
+### Escribiendo las clases ✏
+
+1. **Consola** - _Program.cs_: Constará de un procedimiento estático Main() que será nuestro punto de partida a la hora de ejecutar la aplicación.
 
 
+```
+static void Main(string[] args)
+    {
+        // Inicia nuestra aplicación 
+        Console.WriteLine("Aplicación Concesionaria");
+
+        // Finaliza nuestra aplicación
+    }
+```
+
+2. *ProgramaConcesionario* - _Auto.cs_: Constará de los atributos propios de un Auto, necesarios para que el usuario final interactúe con la aplicación.
+
+```
+public class Auto
+    {
+        public int Modelo { get; private set; }
+        public string Nombre { get; private set; }
+        public string Marca { get; private set; }
+        public int Precio { get; set; }
+        public int Ganancia { get; set; }
+    }
+```
