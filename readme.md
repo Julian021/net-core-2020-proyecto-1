@@ -25,5 +25,8 @@ _*: Recorda seleccionar Console App (.NET Core) y C# como lenguaje._
 - **Proyecto**: Consola (Proyecto de Console App .NET Core C#).
 - **Proyecto**: ProgramaConcesionario (Biblioteca de Clases de .NET Standard).
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Solution](img/solution.png)
+
+### Escribiendo Clases ✏
+
 
