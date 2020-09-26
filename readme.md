@@ -13,7 +13,7 @@ _Como requisitos mínimos para poder trabajar vamos a necesitar:_
 * [.NET Core 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1) - Necesario para compilar nuestra aplicación.
 * [git for windows](https://gitforwindows.org/) - Necesario para conectarse a Github.
 
-### Crear solución 📋
+## Crear solución 📋
 
 1. Necesitaremos crear una **Solución** para nuestra aplicación, la estructura de la misma debe contener al menos un **proyecto de consola**, ya que utilizaremos a la consola como interfaz de usuario.
 
@@ -27,7 +27,7 @@ _*: Recorda seleccionar Console App (.NET Core) y C# como lenguaje._
 
 ![Solution](img/solution.png)
 
-### Escribiendo las clases ✏
+## Escribiendo las clases ✏
 
 1. **Consola** - _Program.cs_: Constará de un procedimiento estático Main() que será nuestro punto de partida a la hora de ejecutar la aplicación.
 
@@ -69,11 +69,70 @@ public class Auto
 }
 ```
 
-### Dando **interacción** a la **Interfaz** 🤵🏻
+## Dando **interacción** a la **Interfaz** 🤵🏻
 
-A la hora de escribir nuestra interacción en la interfaz, tendremos en cuenta los siguientes tips:
+A la hora de escribir nuestra interacción en la interfaz, podemos tener en cuenta los siguientes tips:
 
 - Si esperamos que el usuario ingrese una acción (como por ejemplo el número de comando que desea ejecutar) deberemos validar si el valor ingresado es correcto, y sino, pedir que lo vuelva a ingresar.
 
+```
+static int EjecutarComando()
+{
+    int comando = 0;
 
-### **JSON**: Guardando y leyendo ✏
+    bool comandoValido = false; 
+
+    do
+    {
+        string comandoIngresado = Console.ReadLine();
+
+        comandoValido = int.TryParse(comandoIngresado, out comando);
+        
+        if (!comandoValido)
+        {
+            Console.WriteLine("El comando ingresado " + comandoIngresado + " es incorrecto.");
+
+            Console.WriteLine("Ingrese uno nuevamente: ");
+        }
+
+    } while (!comandoValido);
+
+    return comando;
+}
+```
+
+- Podemos valernos de búcles y condicionales para controlar el flujo de interacción del usuario. 
+
+## **JSON**: Guardando y leyendo ✏
+
+Para almacenar nuestra lista de autos vamos a utilizar un formato de texto conocido como JSON. Se trata de una forma de representar objetos en javascript y es muy utilizado hoy día en el intercambio de datos entre clientes y APIs (lo vamos a ver más adelante).
+
+_En la última versión de .NET Core 3.1 integraron una biblioteca de clases al framework de trabajo que permite serializar y deserializar JSON sin utilizar una biblioteca externa._
+
+### Guardar JSON
+
+Un JSON es una cadena de texto a partir de un objeto, por ende, guardaremos nuestro List<Auto> dentro de la misma.
+
+```
+static void GuardarJSON()
+{
+    List<Auto> autos = new List<Auto>();
+
+    string jsonString = JsonConvert.SerializeObject(autos);
+}
+```
+
+### Leer JSON
+
+Para leer JSON de un archivo de texto:
+
+```
+static List<Auto> GuardarJSON()
+{
+    var texto = File.ReadAllText("autos.json");
+
+    var autosLeidos = JsonConvert.DeserializeObject<List<Auto>>(texto);
+
+    return autosLeidos;
+}
+```
