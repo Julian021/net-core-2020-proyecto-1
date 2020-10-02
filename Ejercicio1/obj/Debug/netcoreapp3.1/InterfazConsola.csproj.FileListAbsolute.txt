@@ -1,0 +1,17 @@
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Ejercicio1\bin\Debug\netcoreapp3.1\InterfazConsola.exe
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Ejercicio1\bin\Debug\netcoreapp3.1\InterfazConsola.deps.json
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Ejercicio1\bin\Debug\netcoreapp3.1\InterfazConsola.runtimeconfig.json
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Ejercicio1\bin\Debug\netcoreapp3.1\InterfazConsola.runtimeconfig.dev.json
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Ejercicio1\bin\Debug\netcoreapp3.1\InterfazConsola.dll
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Ejercicio1\bin\Debug\netcoreapp3.1\InterfazConsola.pdb
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Ejercicio1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Ejercicio1\bin\Debug\netcoreapp3.1\Concesionario.dll
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Ejercicio1\bin\Debug\netcoreapp3.1\Concesionario.pdb
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\InterfazConsola.csprojAssemblyReference.cache
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\InterfazConsola.AssemblyInfoInputs.cache
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\InterfazConsola.AssemblyInfo.cs
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\InterfazConsola.csproj.CoreCompileInputs.cache
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\InterfazConsola.csproj.CopyComplete
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\InterfazConsola.dll
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\InterfazConsola.pdb
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\InterfazConsola.genruntimeconfig.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SqWkl1sp7Rxz40Kt9pzZ9j/C4udSgGgoHazaGvSyDQrCMD/vhTOd0RN4ZXhU+ne9gXJOBWaGHBvFFsG9i5SIPQ==",
+  "success": true,
+  "projectFilePath": "E:\\Development\\net-core-guide\\Ejercicios\\1ero\\Julian\\Ejercicio1\\Consecionario\\Concesionario.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Llulin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

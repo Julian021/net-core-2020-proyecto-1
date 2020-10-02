@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+3je8zjjTl8NnvCLLhImP1mqqzA0GtMLoYOCJrzShG1zXWWeCHc5H/qWyN6FkNCzjK8JJqkeq8qzG+dllQ+v8A==",
+  "success": true,
+  "projectFilePath": "E:\\Development\\net-core-guide\\Ejercicios\\1ero\\Julian\\Ejercicio1\\Ejercicio1\\InterfazConsola.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Llulin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

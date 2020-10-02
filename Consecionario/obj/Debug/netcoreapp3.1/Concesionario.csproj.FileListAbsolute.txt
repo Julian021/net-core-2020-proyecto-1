@@ -1,0 +1,9 @@
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Consecionario\bin\Debug\netcoreapp3.1\Concesionario.deps.json
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Consecionario\bin\Debug\netcoreapp3.1\Concesionario.dll
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Consecionario\bin\Debug\netcoreapp3.1\Concesionario.pdb
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Consecionario\obj\Debug\netcoreapp3.1\Concesionario.csprojAssemblyReference.cache
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Consecionario\obj\Debug\netcoreapp3.1\Concesionario.AssemblyInfoInputs.cache
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Consecionario\obj\Debug\netcoreapp3.1\Concesionario.AssemblyInfo.cs
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Consecionario\obj\Debug\netcoreapp3.1\Concesionario.csproj.CoreCompileInputs.cache
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Consecionario\obj\Debug\netcoreapp3.1\Concesionario.dll
+E:\Development\net-core-guide\Ejercicios\1ero\Julian\Ejercicio1\Consecionario\obj\Debug\netcoreapp3.1\Concesionario.pdb
